@@ -1,0 +1,14 @@
+.image-list {
+  border-right: 1px solid white;
+  height: 100vh;
+}
+
+.list-heading {
+  margin: 30px 20px;
+  font-family: "Luxurious Roman", cursive;
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+}
+.image-item {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+.image-details-headings {
+  margin: 30px 20px;
+  font-family: "Luxurious Roman", cursive;
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+}
+.image-preview {
+  width: 500px;
+  height: 400px;
+  border: 100px solid brown;
+  border-width: thick;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.image-size {
+  margin-bottom: 10px;
+}
+.original-dimension {
+  margin-bottom: 10px;
+}
+.current-dimension {
+  margin-bottom: 10px;
+}

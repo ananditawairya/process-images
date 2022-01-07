@@ -1,0 +1,37 @@
+.navbar {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  border-bottom: 1px solid #fafafa;
+  height: 53px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: rgb(211, 30, 30);
+  margin: 10px;
+}
+.title-container {
+  display: flex;
+  flex: nowrap;
+}
+
+.browse::-webkit-file-upload-button {
+  color: white;
+  display: inline-block;
+  background: #1cb6e0;
+  border: none;
+  padding: 7px 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10pt;
+}
+input[type="file"] {
+  color: transparent !important;
+}
+input[type="file"]::before {
+  color: black;
+  margin-right: 10px;
+}
